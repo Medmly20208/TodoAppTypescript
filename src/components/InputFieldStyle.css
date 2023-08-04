@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  gap: 5px;
+}
+
+.input__field {
+  padding: 0.5em 0.2em;
+  border: 1px black solid;
+  border-radius: 10px;
+  outline: none;
+}
+
+.submit__btn {
+  cursor: pointer;
+  padding: 0.2em 0.5em;
+  border: 1px transparent solid;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.submit__btn:hover {
+  background-color: blue;
+}
